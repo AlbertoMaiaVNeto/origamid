@@ -1,0 +1,44 @@
+:root{
+    --fontcolor_preco: #febe01;
+    --fontcolor_botao: #332200;
+    --fontcolor_cinza: #b2b2b2;
+}
+
+body{
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    margin: 0px;
+}
+
+.item{
+    background-color: #111;
+    padding: 30px;
+    margin: 20px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+span{
+    color: var(--fontcolor_preco) ;
+}
+
+p{
+    color: var(--fontcolor_cinza);
+}
+
+a{
+  padding: 10px;
+  border-radius: 5px;
+  color: var(--fontcolor_botao);
+  background-color: var(--fontcolor_preco);
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+}
