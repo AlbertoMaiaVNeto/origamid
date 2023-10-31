@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1.3em;
+    font-weight: normal;
+    color: tomato;
+}
+
+a{
+     color: inherit; /* Comando usado para fazer com que um elemento que já tenha um valor padrão herde as configurações */
+}
+
+button{
+    display: block;
+}

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+h1{
+    background-color: #bb44ee;
+}
+
+h2{
+    background-color: hsl(29, 100%, 50%);
+}
+
+a{
+    background-color: hsl(83, 71%, 54%);
+}
