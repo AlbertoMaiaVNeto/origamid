@@ -15,6 +15,7 @@ h2{
     border-radius: 5px;
     border: 1px solid #e7e7e7;
     display: grid;
+    
 }
 
 .comprar{
@@ -27,6 +28,11 @@ h2{
 
 .grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    height: 800px;
+    grid-template-columns: 300px 300px;
     gap: 20px;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    
 }

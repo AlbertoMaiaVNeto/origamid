@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+    font-family: arial;
+}
+
+h1{
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.produto{
+    padding: 20px;
+    background-color: #111;
+    color: #fff;
+    border-radius: 10px;
+    display: grid;
+}
+
+h2{
+    margin-top: 0px;
+}
+
+.preco{
+    color: rgb(236, 236, 78);
+}
+
+.comprar{
+    text-decoration: none;
+    color: darkblue;
+    background-color: yellow;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+p{
+    color: darkgray;
+}
