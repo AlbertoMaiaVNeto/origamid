@@ -1,0 +1,25 @@
+.flex{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2{
+    background-color: #e7e7e7;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0px;
+}
+
+body{
+    height: 100vh;
+    margin: 0px;
+}
+
+.grid{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    gap: 20px;
+}

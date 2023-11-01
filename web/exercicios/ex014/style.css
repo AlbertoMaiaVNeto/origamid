@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+h1{
+    border: 2px solid #ccc;
+    padding: 20px 20px 200px 20px;
+}
+
+p{
+    padding: 20px;
+    background-color: #e7e7e7;
+    border: 2px solid black;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.fixo{
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    left: 20px;
+}
+
+.aceite{
+    text-decoration: none;
+    background-color: darkgray;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 5px;
+}
