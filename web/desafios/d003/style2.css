@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #e7e7e7;
+    display: grid;
+    gap: 60px;
+    justify-items: center;
+    margin-top: 60px;
+    max-width: 100vw;
+}
+
+.foto{
+    width: 100%;
+    display: block;
+    border-top-right-radius: 10px;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+p, h1, h2, h3{
+    margin: 0px;
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+#menu a:hover{
+    background-color: darkgrey;
+}
+#menu a{
+    background-color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 5px;
+}
+
+#conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    min-width: 950px;
+    flex-wrap: wrap;
+}
+
+.descricao{
+    background-color: white;
+    text-align: right;
+    padding: 40px;
+    position: relative;
+    display: grid;
+    justify-items: end;
+    align-content: center;
+    gap: 20px;
+    border-top-left-radius: 10px;
+}
+
+.detalhe{
+    background-color: #e21;
+    height: 4px;
+    width: 60px;
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    right: -30px;
+    z-index: 1;
+}
+
+.botao{
+    background-color: #e21;
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.botao:hover{
+    background-color: rgb(173, 6, 6);
+}
+.subtitulo{
+    font-size: 64px;
+    text-transform: uppercase;
+    text-align: right;
+    align-self: center;
+    color: rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+
+.vantagens{
+    background-color: white;
+    padding: 40px;
+    border-bottom-right-radius: 10px
+}
+
+.vantagens-items{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+
+}
+
+.vantagens-items p{
+    grid-column: 2;
+}
+
+footer{
+    background-color: white;
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+footer a{
+    font-weight: bold;
+}
