@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+*, body{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, p{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    font-size: 1.3rem;
+    line-height: 1.3;
+}
+
+.cabecalho{
+    display: grid;
+    gap: 60px;
+    margin-top: 60px;
+    justify-items: center;
+}
+
+.menu-item{
+    display: flex;
+    gap: 20px;
+}
+
+.menu-item a{
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border: 2px solid white;
+}
+
+.menu-item a:hover{
+    border: 2px solid red;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-items: center;
+    gap: 60px;
+    background-color: #e7e7e793;
+    /* text-align: center; */
+}
+
+
+.foto{
+    width: 100%;
+    display: block;
+}
+
+.conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+}
+
+.intro{
+    background-color: white;
+    padding: 40px;
+    display: grid;
+    align-items: right;
+    text-align: right;
+    align-content: center;
+    gap: 20px;
+    justify-items: right;
+    border-top-left-radius: 10px;
+    position: relative;
+}
+
+.intro::before{
+    content: "";
+    height: 4px;
+    width: 60px;
+    background-color: red;
+    position: absolute;
+    top: 30px;
+    right: -30px;
+    z-index: 1;
+}
+
+.botao{
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+.botao:hover{
+    background-color: darkred;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.foto{
+    border-top-right-radius: 10px;
+}
+
+/* .subtitulo{
+    background-image: url(img/onda.svg);
+    background-repeat: repeat;
+    background-position: center center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    padding: 40px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.2);
+    text-align: right;
+} */
+
+.subtitulo{
+    font-size: 4rem;
+    text-align: right;
+    padding: 40px;
+    align-self: center;
+    color: rgba(0, 0, 0, 0.221);
+    text-transform: uppercase;
+    background-image: url(img/onda.svg);
+}
+
+.vantagens{
+    background-color: white;
+    padding: 40px;
+    border-bottom-right-radius: 10px;
+}
+
+.vantagens-item{
+    display: grid;
+    justify-items: left;
+    gap: 10px 10px;
+}
+
+.lista li:nth-child(odd){
+    background-color: #e7e7e793;
+
+}
+
+.lista li{
+    padding: 20px;
+    border-left: 4px solid white;
+}
+.lista li:hover{
+    border-left: 4px solid red;
+}
+
+.vantagens-item p{
+    grid-column: 2;
+    text-align: left;
+}
+
+
+footer{
+    background-color: white;
+    padding: 20px;
+    width: 97.4%;
+    text-align: center;
+}
