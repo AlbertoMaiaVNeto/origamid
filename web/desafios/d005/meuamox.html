@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Amox</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Pacifico&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: palevioletred;
+            margin-top: 15vh;
+        }
+
+        .container {
+            max-width: 800px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            background-color: pink;
+            padding: 20px;
+            margin: 0 auto;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        .container h1 {
+            grid-column: 1 / -1;
+        }
+
+        img {
+            width: 100%;
+            display: block;
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-family: 'love', sans-serif;
+            font-size: 3rem;
+        }
+
+        .texto {
+            display: grid;
+            align-content: center;
+            justify-content: center;
+        }
+
+        .texto p {
+            font-size: 3rem;
+            text-align: left;
+            font-family: 'Outfit', sans-serif;
+            font-family: 'Pacifico', cursive;
+        }
+
+        .texto p::after{
+            content: '\2764\FE0F' '\27A1\FE0F';
+        }
+
+        @font-face {
+            font-family: 'love';
+            src: url('Lovely.otf') format('opentype');
+            font-size: normal;
+            font-style: normal;
+        }
+
+        .voltar{
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="titulo">Eu amo minha Namorada</h1>
+        <div class="texto">
+            <p>Esse aqui é meu amor </p>
+            <a href="index.html"><img src="contorno-do-botao-circular-da-seta-para-tras-esquerda.png" alt="" class="voltar"></a>
+        </div>
+        <div class="cover"><img src="amox.jpeg" alt="Foto do meu Amxo">
+        </div>
+    </div>
+</body>
+
+</html>
