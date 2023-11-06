@@ -183,6 +183,7 @@ footer a{
     .info{
         text-align: left;
         justify-items: flex-start;
+        gap: 5px;
     }
     .conteudo{
         grid-template-columns: 1fr;
@@ -202,5 +203,9 @@ footer a{
   @media (max-width: 400px){
     .subtitulo{
         font-size: 2rem;
+    }
+    .vantagens{
+        font-size: 1rem;
+        padding: 10px;
     }
   }
