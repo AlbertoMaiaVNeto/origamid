@@ -24,9 +24,16 @@
     padding: 10px 20px;
     background-color: #5000ca;
     border-radius: 6px;
-    box-shadow:  6px 6px 0px 0px black
+    box-shadow:  6px 6px 0px 0px black;
+    transition: transform 0.2s ease-in-out;
+    
 }
 
+.header-menu a:hover {
+    transform: scale(1.2);
+}
+
+}
 @media (max-width: 800px){
     .header{
         flex-direction: column;
