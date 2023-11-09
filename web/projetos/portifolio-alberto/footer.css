@@ -1,5 +1,5 @@
 .footer{
-    background-color: black;
+    background-color: white;
 }
 
 .footer-container{
@@ -8,32 +8,120 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 100px;
+    gap: 150px;
     align-items: center;
+    position: relative;
 }
+
+.footer-container::before{
+    content: "";
+    background-image: url(img/blob.svg);
+    width: 800px;
+    height: 800px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: -120px;
+    left: -90px;
+    z-index: 0;
+}
+
 
 .footer-texto{
     font-size: 1.5rem;
-    color: #cccccc;
+    color: #141414;
     line-height: 1.33;
+    z-index: 1;
+}
+
+.footer-contato{
+    background-color: #b6f829;
+    padding: 30px 40px 20px 40px;
+    border-radius: 10px;
+    box-shadow: 12px 13px black;
+    
 }
 
 .footer-contato li{
-    font-size:2.25rem;
+    font-size:2rem;
     font-weight: bold;
-    color: white;
+    color: black;
     line-height: 1.1;
     margin-bottom: 30px;
+    position: relative;
 }
 
+
+/* .footer-contato .github::before{
+    content: "";
+    background-image: url(img/icons8-github.svg);
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    left: -60px;
+    top: -7px;
+}
+
+
+.footer-contato .email::before{
+    content: "";
+    background-image: url(img/icons8-e-mail-50.png);
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    left: -60px;
+    top: -7px;
+}
+
+.footer-contato .numero::before{
+    content: "";
+    background-image: url(img/icons8-phone-50.png);
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    left: -60px;
+    top: -7px;
+}
+
+.footer-contato .instagram::before{
+    content: "";
+    background-image: url(img/icons8-instagram.svg);
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    left: -60px;
+    top: -7px;
+} */
 .footer-contato li a{
-    color: white;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
 }
 
 .footer-copy{
     font-size: 1.125rem;
-    color: #8f8f8f;
+    color: black;
     grid-template-columns: 1/ -1;
+}
+
+@media (max-width: 1000px){
+    .footer-container::before{
+        display: none;
+    }
+
+    .footer-contato li{
+        font-size: 1.5rem;
+    }
+
+    .footer-container li img{
+        height: 40px;
+        width: 40px;
+    }
 }
 
 @media (max-width: 800px){
@@ -43,5 +131,17 @@
     }
     .footer-contato li{
         font-size: 1.5rem;
+    }
+}
+
+
+@media (max-width: 400px){
+    .footer-contato li{
+        font-size: 1.2rem;
+    }
+
+    .footer-container li img{
+        height: 30px;
+        width: 30px;
     }
 }
