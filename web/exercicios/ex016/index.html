@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#">
+        <label for="usuario">Login</label>
+        <input type="text" id="usuario" name="usuario">
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha">
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email">
+
+        <label for="idade">Idade</label>
+        <input type="number" id="idade" name="idade">
+
+        <label for="reserva">Reserva</label>
+        <input type="date" id="reserva" name="reserva">
+
+        <div class="checkbox">
+            <input type="checkbox" id="termos" name="aceite">
+            <label for="termos">Aceito os termos de uso</label>
+        </div>
+
+        <div class="radio">
+            <input type="radio" id="masculino" name="aceite">
+            <label for="masculino">Masculino</label>
+        </div>
+
+
+        <div class="radio">
+            <input type="radio" id="feminino" name="aceite">
+            <label for="feminino">Feminino</label>
+        </div>
+
+        <label for="parcelas"></label>
+        <select name="parcelas" id="parcelas">
+            <option value="1x">1x de 200,00 R$</option>
+            <option value="2x">2x de 100,00 R$</option>
+            <option value="4x">4x de 50,00 R$</option>
+        </select>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem"  rows="5"></textarea>
+        <button>Enviar</button>
+    </form> 
+</body>
+</html>
